@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.link_box{     
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.User_name{
+    color: skyblue;
+}
+.repository{
+    color: skyblue;
+}
+.select{
+    width: 300px;
+    display: flex;
+    height: 30px;
+}
+button{
+    height: 32px;
+    width: 100px;
+    color: gray;
+}
+button:focus{
+    background-color: #fff;
+    color: blue;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+}
+li>a{
+    width: 100%;
+    height: 100%;
+    color: blue;
+}
+li{
+    border: 1px solid lightslategray;
+    height: 30px;
+    width: 30px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active>a{
+    background-color: blue;
+    color: #fff;
+}

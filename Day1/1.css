@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+#id,#password{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+}
+.submit{
+    width: 100px;
+}
+input{
+    margin-top: 10px;
+}
+.password:focus{
+    border-color: #0982f0;
+    color: #0982f0;
+}
