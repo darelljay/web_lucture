@@ -1,0 +1,8 @@
+<i class="fas fa-bars"></i>
+<i class="fab fa-youtube"></i>
+<i class="fas fa-search"></i>
+<i class="far fa-thumbs-up"></i><
+<i class="far fa-thumbs-down"></i>
+<i class="fas fa-share"></i>
+<i class="fas fa-arrow-down"></i>
+<i class="fas fa-bars"></i>
