@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const button = document.getElementsByClassName("hidden");
+
+        function submit() {
+            const id = document.getElementById("id").value;
+            const password = document.getElementById("password").value;
+
+
+        }
+
+
+
+        function change_toBlack() {
+            document.body.style.backgroundColor = "#000";
+            document.body.style.color = "#fff";
+            document.body.style.transition = "1s";
+        }
+        function change_towhite() {
+            document.body.style.backgroundColor = "#fff";
+            document.body.style.color = "#000";
+            document.body.style.transition = "1s";
+        }
+
+    </script>
+</head>
+
+<body>
+    <div>영역 A</div>
+    <div>영역 B</div>
+    <div>영역 C</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, facere nostrum labore enim asperiores praesentium
+        accusamus quam quas illo molestiae a voluptate nemo corrupti, dicta, culpa atque dignissimos omnis dolorem!
+    </p>
+    <button class="hidden" onclick="change_toBlack()">버튼</button>
+    <button id="submit" onclick="change_towhite()">제출</button>
+
+    <input type="text" id="id" placeholder="아이디를 입력하세요">
+    <input type="password"id="password" placeholder="비밀번호를 입력하세요">
+    <input type="button" value="submit" onclick="submit()">
+   
+</body>
+
+</html>
